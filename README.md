@@ -1,3 +1,16 @@
+# u5-re — Ultima V: Warriors of Destiny decompilation
+
+A fork of [wonst719/u5d](https://github.com/wonst719/u5d), the decompilation of *Ultima V* (MS-DOS v1.16)
+by wonst719. All decompilation work is theirs; this fork tracks it as the reference for
+[u5-go](https://github.com/memmaker/u5-go). It is inspired by the [u4-decompiled](https://github.com/ergonomy-joe/u4-decompiled) project.
+
+- **Status (upstream):** about 95% of `ULTIMA.EXE` and the `*.OVL` overlays match at assembly level. Asm functions are not counted.
+  A byte-exact build isn't possible yet because the original linker (PLINK86) is missing. The game can be played to the end with the original data files.
+- **No game files are included.** You need your own copy (GOG).
+- Build instructions are in the original (Korean) README below and in [README.KO.md](README.KO.md).
+
+---
+
 # u5d - Ultima V Decompilation Project
 
 ## Introduction
